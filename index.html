@@ -751,8 +751,8 @@
     <script src="js/agency.min.js"></script>
     <script> 
     	var w = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
-    	itm = document.getElementById ("frm").width;
-    	itm = Math.min(700, w-20 );
+    	itm = document.getElementById ("frm");
+    	itm.width = Math.min(700, w-20 );
     	console.log (itm);
     </script>
 
