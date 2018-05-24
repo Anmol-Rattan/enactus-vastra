@@ -460,7 +460,7 @@
           <div class="col-lg-12 text-center">
             <h2 class="section-heading text-uppercase">Contact Us and Donate</h2>
             <h3 class="section-subheading text-muted" >Leave below your contact info and PickUp Location</h3>
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfrOMF4rscO6SAAuf9mdyPrR8WZE3p0T7GDV3n7oeaKRyMHSQ/viewform?embedded=true" width="700" height="520" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+<iframe id="frm" onload= "res()" src="https://docs.google.com/forms/d/e/1FAIpQLSfrOMF4rscO6SAAuf9mdyPrR8WZE3p0T7GDV3n7oeaKRyMHSQ/viewform?embedded=true" onload="res()" height="520" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
           </div>
         </div>
       
@@ -756,7 +756,7 @@
      	var w = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
      	itm = document.getElementById ("frm");
      	itm.width = Math.min(700, w-20 );
-     	console.log (itm);
+     	console.log (w);
      	console.log("execu");
     }
    
